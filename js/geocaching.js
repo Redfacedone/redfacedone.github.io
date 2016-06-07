@@ -1,4 +1,4 @@
-check_geocache(){
+function check_geocache() {
 var input = document.getElementById("output").value;
 if(input === "I love geocaching!"){
 document.getElementById("geocachingOutput").innerHTML = "You did it!";
